@@ -393,6 +393,9 @@ ChipThemeData _chipTheme({
             ),
           ),
 
+    // TODO(rydmike): Cannot define side without it affecting all variants.
+    // side: BorderSide(color: colorScheme.outline),
+
     // Applies to [ActionChip], [Chip], [FilterChip], [InputChip], [RawChip].
     // If it needs different color fr selected and unselected state it cannot
     // be themed correctly.
